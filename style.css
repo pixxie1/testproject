@@ -159,4 +159,34 @@ figure.work figcaption {
   }
 }
 
+/* CONTACT – minimal icons */
+
+.contact-centered {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-links {
+  display: flex;
+  gap: 28px;
+}
+
+.contact-links a {
+  font-size: 18px;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+.contact-links a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .contact-links {
+    gap: 22px;
+  }
+}
+
 
