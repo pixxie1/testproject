@@ -33,10 +33,12 @@ body {
 }
 
 .site-nav a {
+  text-transform: uppercase;
   margin-left: 20px;
   text-decoration: none;
   color: inherit;
-  font-size: 14px;
+  font-size: 12px;
+  letter-spacing: 0.14em;
   opacity: 0.7;
 }
 
@@ -51,11 +53,11 @@ body {
 }
 
 .section {
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 }
 
 #works { 
-  margin-bottom: 40px; 
+  margin-bottom: 0px; 
 }   
 
 .intro { 
@@ -85,11 +87,6 @@ body {
   letter-spacing: 0.12em;
 }
 
-.site-nav a {
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  font-size: 12px;
-}
 
 
 .site-footer {
@@ -127,8 +124,8 @@ figure.work:last-child {
 }
 
 figure.work img {
-  display: block;
   width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -136,16 +133,27 @@ figure.work figcaption {
   display: none;
 }
 
-#about {
-  margin-top: 80px;         /* Abstand nach dem letzten Werk */
+/* ABOUT – minimal, centered, name-like */
+
+.about-centered {
+  margin-top: 60px;
+  text-align: center;
 }
 
-
-#about.text {
+.about-text {
   max-width: 520px;
-  margin-left: 120px;   /* Einrückung */
+  margin: 0 auto;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  opacity: 0.6;
 }
+
 @media (max-width: 600px) {
-  #about.text { margin-left: 0; }
+  .about-text {
+    font-size: 12px;
+    letter-spacing: 0.14em;
+  }
 }
+
 
