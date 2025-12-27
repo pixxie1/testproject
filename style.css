@@ -71,6 +71,11 @@ body {
   font-size: 15px;
 }
 
+.caps {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
 .site-footer {
   max-width: 1100px;
   margin: 0 auto;
