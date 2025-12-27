@@ -54,6 +54,14 @@ body {
   margin-bottom: 120px;
 }
 
+#works { 
+  margin-bottom: 40px; 
+}   
+
+.intro { 
+  margin-bottom: 40px; 
+} 
+
 .section img {
   width: 100%;
   height: auto;
@@ -109,20 +117,6 @@ body {
   }
 }
 
-
-.work img {
-  display: block;
-}
-
-.work figcaption {
-  display: none;
-}
-
-.work {
-  max-width: 720px;
-  margin: 0 auto 8px auto;
-}
-
 figure.work {
   max-width: 720px;
   margin: 0 auto 8px auto;
@@ -132,4 +126,13 @@ figure.work:last-child {
   margin-bottom: 0;
 }
 
+figure.work img {
+  display: block;
+  width: 100%;
+  display: block;
+}
+
+figure.work figcaption {
+  display: none;
+}
 
