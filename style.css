@@ -102,3 +102,16 @@ body {
   font-size: 13px;
   opacity: 0.6;
 }
+.work {
+  margin: 0 0 90px 0;
+  max-width: 900px;   /* ← HIER steuerst du die Größe */
+}
+
+.work img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.work {
+  margin: 0 auto 90px auto;
+}
