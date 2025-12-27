@@ -76,6 +76,13 @@ body {
   letter-spacing: 0.12em;
 }
 
+.site-nav a {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 12px;
+}
+
+
 .site-footer {
   max-width: 1100px;
   margin: 0 auto;
