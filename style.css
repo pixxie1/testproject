@@ -87,3 +87,18 @@ body {
     margin-bottom: 80px;
   }
 }
+.work {
+  margin: 0 0 90px 0;
+}
+
+.work img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.work figcaption {
+  margin-top: 10px;
+  font-size: 13px;
+  opacity: 0.6;
+}
