@@ -109,8 +109,10 @@ body {
   }
 }
 .work {
-  margin: 0 0 90px 0;
+  max-width: 900px;
+  margin: 0 auto 28px auto; /* minimaler Abstand */
 }
+
 
 .work img {
   width: 100%;
@@ -119,13 +121,12 @@ body {
 }
 
 .work figcaption {
-  margin-top: 10px;
-  font-size: 13px;
-  opacity: 0.6;
+  display: none;
 }
+
 .work {
-  margin: 0 0 90px 0;
-  max-width: 900px;   /* ← HIER steuerst du die Größe */
+   max-width: 900px;
+  margin: 0 auto 20px auto;
 }
 
 .work img {
