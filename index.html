@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine erste Webseite</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>pixxie — Sarah von Funck</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <h1>Halloo!</h1>
-    <p>hola</p>
-    <img src="landscape.jpeg" alt="Ein Beispielbild" width="300">
+
+  <header class="site-header">
+    <div class="site-title">
+      <strong>pixxie</strong><br>
+      <span>Sarah von Funck</span>
+    </div>
+
+    <nav class="site-nav">
+      <a href="#works">Works</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="content">
+
+    <section id="works" class="section">
+      <img src="images/landscape.jpeg" alt="Artwork by pixxie">
+      <p class="caption">Untitled, 2024</p>
+    </section>
+
+    <section id="about" class="section text">
+      <p>
+        pixxie is the artistic practice of Sarah von Funck.<br>
+        Her work explores perception, materiality, and subtle shifts in form.
+      </p>
+    </section>
+
+    <section id="contact" class="section text">
+      <p>
+        Contact<br>
+        <a href="mailto:your@email.com">your@email.com</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    © pixxie / Sarah von Funck
+  </footer>
 
 </body>
 </html>
-
