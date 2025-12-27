@@ -125,9 +125,10 @@ body {
 }
 
 .work {
-   max-width: 900px;
+  max-width: 720px;
   margin: 0 auto 20px auto;
 }
+
 
 .work img {
   width: 100%;
