@@ -159,29 +159,35 @@ figure.work figcaption {
   }
 }
 
-/* CONTACT – minimal icons */
+/* CONTACT – minimal text */
 
 .contact-centered {
   display: flex;
   justify-content: center;
 }
 
-.contact-links {
-  display: flex;
-  gap: 28px;
+.contact-text {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  opacity: 0.6;
+  margin: 0;
 }
 
-.contact-links a {
-  font-size: 18px;
+.contact-text a {
   text-decoration: none;
   color: inherit;
-  opacity: 0.5;
-  transition: opacity 0.2s ease;
 }
 
-.contact-links a:hover {
+.contact-text a:hover {
   opacity: 1;
 }
+
+.contact-text span {
+  margin: 0 10px;
+  opacity: 0.5;
+}
+
 
 @media (max-width: 600px) {
   .contact-links {
