@@ -136,21 +136,16 @@ figure.work figcaption {
   display: none;
 }
 
-/* Give Works -> About a clear break */
 #about {
   margin-top: 80px;         /* Abstand nach dem letzten Werk */
 }
 
-/* Make About a centered text block */
+
 #about.text {
   max-width: 520px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 120px;   /* Einrückung */
+}
+@media (max-width: 600px) {
+  #about.text { margin-left: 0; }
 }
 
-/* Clean typography for the paragraph */
-#about p {
-  margin: 0;
-  line-height: 1.8;
-  opacity: 0.85;
-}
