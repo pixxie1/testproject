@@ -108,15 +108,9 @@ body {
     margin-bottom: 80px;
   }
 }
-.work {
-  max-width: 900px;
-  margin: 0 auto 28px auto; /* minimaler Abstand */
-}
 
 
 .work img {
-  width: 100%;
-  height: auto;
   display: block;
 }
 
@@ -129,12 +123,13 @@ body {
   margin: 0 auto 8px auto;
 }
 
+figure.work {
+  max-width: 720px;
+  margin: 0 auto 8px auto;
+}
 
-.work img {
-  width: 100%;
-  height: auto;
-  display: block;
+figure.work:last-child {
+  margin-bottom: 0;
 }
-.work {
-  margin: 0 auto 90px auto;
-}
+
+
