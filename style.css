@@ -69,6 +69,7 @@ body {
 .text {
   max-width: 500px;
   font-size: 15px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
 }
 
 .caps {
