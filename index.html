@@ -1,98 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>pixxie — Sarah von Funck</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>pixxie — Sarah von Funck</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
   <header class="site-header">
     <div class="site-title">
-      <strong class="caps">pixxie</strong><br>
-      <span>Sarah von Funck</span>
+      <h1>
+        <span class="caps">pixxie</span><br>
+        <span>Sarah von Funck</span>
+      </h1>
     </div>
 
-    <nav class="site-nav">
+    <nav class="site-nav" aria-label="Main navigation">
       <a href="#works">Works</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-
-
   <main class="content">
 
-<!-- INTRO -->
-
-    <section class="section intro">
-        <figure class="work">
-            <img src="images/intro/intro01.jpeg" alt="Artwork by pixxie">
-            <figcaption>bodies, 2025</figcaption>
-        </figure>
+    <!-- INTRO -->
+    <section class="section intro" aria-label="Introduction">
+      <figure class="work">
+        <img
+          src="images/intro/intro01.jpeg"
+          alt="Painting by Sarah von Funck"
+          loading="eager"
+        >
+        <figcaption>bodies, 2025</figcaption>
+      </figure>
     </section>
 
-<!-- WORKS -->
+    <!-- WORKS -->
+    <section id="works" class="section" aria-labelledby="works-heading">
+      <h2 id="works-heading" class="visually-hidden">Works</h2>
 
-    <section id="works" class="section">
+      <figure class="work">
+        <img src="images/works/work-01.jpeg" alt="Untitled artwork, 2024" loading="lazy">
+        <figcaption>Untitled, 2024</figcaption>
+      </figure>
 
-        <figure class="work">
-            <img src="images/works/work-01.jpeg" alt="Artwork by pixxie">
-            <figcaption>Untitled, 2024</figcaption>
-        </figure>
+      <figure class="work">
+        <img src="images/works/work-01b.jpeg" alt="Untitled artwork, 2024" loading="lazy">
+        <figcaption>Untitled, 2024</figcaption>
+      </figure>
 
-        <figure class="work">
-            <img src="images/works/work-01b.jpeg" alt="Artwork by pixxie">
-            <figcaption>Untitled, 2024</figcaption>
-        </figure>
+      <figure class="work">
+        <img src="images/works/work-01c.jpeg" alt="Untitled artwork, 2024" loading="lazy">
+        <figcaption>Untitled, 2024</figcaption>
+      </figure>
 
-        <figure class="work">
-            <img src="images/works/work-01c.jpeg" alt="Artwork by pixxie">
-            <figcaption>Untitled, 2024</figcaption>
-        </figure>
+      <figure class="work">
+        <img src="images/works/work-02.jpeg" alt="Untitled artwork, 2024" loading="lazy">
+        <figcaption>Untitled, 2024</figcaption>
+      </figure>
 
-        <figure class="work">
-            <img src="images/works/work-02.jpeg" alt="Artwork by pixxie">
-            <figcaption>Untitled, 2024</figcaption>
-        </figure>
-
-        <figure class="work">
-            <img src="images/works/work-04.jpeg" alt="Artwork by pixxie">
-            <figcaption>Untitled, 2024</figcaption>
-        </figure>
-
-
+      <figure class="work">
+        <img src="images/works/work-04.jpeg" alt="Untitled artwork, 2024" loading="lazy">
+        <figcaption>Untitled, 2024</figcaption>
+      </figure>
     </section>
 
-<!-- ABOUT -->
-<section id="about" class="section about-centered">
-  <p class="about-text">
-    SARAH VON FUNCK IS AN ARTIST WORKING UNDER THE NAME PIXXIE.<br>
-    ACADEMICALLY TRAINED AS A PAINTER, WORKING WITH CLASSICAL<br>
-    METHODS IN A CONTEMPORARY PRACTICE.
-  </p>
-</section>
+    <!-- ABOUT -->
+    <section id="about" class="section about-centered" aria-labelledby="about-heading">
+      <h2 id="about-heading" class="visually-hidden">About</h2>
+      <p class="about-text">
+        Sarah von Funck is an artist working under the name pixxie.<br>
+        Academically trained as a painter, working with classical
+        methods in a contemporary practice.
+      </p>
+    </section>
 
-
-
-
-
-<!-- CONTACT -->
-<section id="contact" class="section contact-centered">
-  <p class="contact-text">
-    <a href="https://instagram.com/pix_xie__" target="_blank">Instagram</a>
-    <span>|</span>
-    <a href="mailto:sfunck@gmail.com">Mail</a>
-  </p>
-</section>
-
-
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-centered" aria-labelledby="contact-heading">
+      <h2 id="contact-heading" class="visually-hidden">Contact</h2>
+      <p class="contact-text">
+        <a href="https://instagram.com/pix_xie__" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <span>|</span>
+        <a href="mailto:sfunck@gmail.com">Mail</a>
+      </p>
+    </section>
 
   </main>
 
